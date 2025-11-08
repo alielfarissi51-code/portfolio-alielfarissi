@@ -89,7 +89,10 @@ h2{margin:0 0 12px;color:#cfe6ff}
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
+footer p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
 /* ملي تكبر */
 .profile-pic.big {
   width: 350px;
@@ -98,4 +101,5 @@ h2{margin:0 0 12px;color:#cfe6ff}
   position: relative;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
+
 
