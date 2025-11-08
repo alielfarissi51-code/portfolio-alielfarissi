@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games Zone Tamaris — Details</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .gz-header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .gz-header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #cfe6ff;
+    }
+    .gz-header p {
+      color: var(--muted);
+      margin-top: 6px;
+      font-size: 15px;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    .photo-grid img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 10px;
+      background: var(--glass);
+      transition: transform .25s ease;
+    }
+
+    .photo-grid img:hover {
+      transform: translateY(-5px);
+    }
+
+    .gz-section p,
+    .gz-section li {
+      color: var(--muted);
+    }
+
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <!-- HEADER -->
+    <section class="gz-header">
+      <h1>Games Zone Tamaris</h1>
+      <p>Play • Relax • Enjoy the Experience</p>
+    </section>
+
+    <!-- OPENING DATE -->
+    <section class="about gz-section">
+      <h2>Opening Date</h2>
+      <p><strong>Opened:</strong> 2025 — Active</p>
+      <p>We keep improving the gaming experience every week.</p>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="about gz-section">
+      <h2>Services</h2>
+      <ul>
+        <li>PlayStation 4 / PlayStation 5</li>
+        <li>Snack & Drinks</li>
+        <li>Comfortable Gaming Area</li>
+        <li>Tournaments & Events</li>
+        <li>Customer Support</li>
+
+        <!-- ✅ NEW SERVICES ADDED -->
+        <li>Billard</li>
+        <li>Snooker</li>
+      </ul>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="about gz-section">
+      <h2>Photos</h2>
+      <p>Add your real images here (just replace the src):</p>
+
+      <div class="photo-grid">
+        <img src="images/img1.jpg" alt="">
+        <img src="images/img2.jpg" alt="">
+        <img src="images/img3.jpg" alt="">
+        <img src="images/img4.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="about gz-section">
+      <h2>Instagram</h2>
+      <p>
+        Follow for updates →  
+        <a href="https://www.instagram.com/games.zonetamaris?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="link-more">
+          Instagram Games Zone
+        </a>
+      </p>
+    </section>
+
+    <!-- BACK -->
+    <footer class="footer">
+      <p><a href="../index.html" class="link-more">← Back to Portfolio</a></p>
+    </footer>
+
+  </main>
+</body>
+</html>
